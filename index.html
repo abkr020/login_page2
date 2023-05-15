@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-image: url(flower.JPG) ;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        
+        
+        
+    }
+    .box1{
+        border: 1px solid yellow;
+        padding: 1cm;
+        position: absolute;
+        top: 20%;
+        left: 8%;
+        border-radius: 8px;
+        /* filter: blur(2px); */
+    }
+    .box1 h1{
+        color: green;
+        font: bold;
+        text-decoration: underline;
+    }
+    .box2{
+        
+        /* border: 2px solid greenyellow; */
+        margin: 20px;
+    }
+    .box2 input{
+        background: none;
+        border: 2px solid green;
+        border-radius: 8px;
+        padding: 6px;
+        /* color: red; */
+    }
+    .box1 button{
+        background: none;
+        cursor: pointer;
+        color: white;
+        border: 2px solid green;
+        border-radius: 6px;
+        /* width: 10%; */
+        
+        font-weight: bold;
+    }
+    .box1 button:hover{
+        background: white;
+        color: green;
+    }
+</style>
+<body>
+    <div class="box1">
+        <h1>sign in</h1>
+        <div class="box2">
+
+            <input type="email" name="email" placeholder="enter your email" id="email">
+            <br>
+            <input type="password" name="password" placeholder="enter your password" id="password">
+        </div>
+        <button>submit</button>
+    </div>
+</body>
+</html>
